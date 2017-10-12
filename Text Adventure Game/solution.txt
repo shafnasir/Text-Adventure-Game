@@ -1,0 +1,11 @@
+GO east
+get item
+GO east
+get item
+GO south
+GO west
+GO south
+GO south
+get item
+GO east
+use item

@@ -1,0 +1,9 @@
+new item and puzzles
+new item: money
+new descriptions and hints
+new location to use item
+At location 4 there is a hint (Hint: you can find a 5 dollar bill where there are students crying)
+At location 5 the long description says: You are in CCT building there are a couple math 102 students coming out of a test crying.
+The player has to figure out this puzzle when they do they will notice that in the menu they can get an item at location 5 the item is a 5 dollar bill, they get 1 point for getting it.
+At location 6 there is another hint (Hint: there is only one coffee shop open at this time on campus and coffee shops are where you can buy coffee!)
+The player has to figure out this puzzle when they do they will go back to starbucks and notice that in the menu they can use an item then they will use the 5 dollar bill and get a coffee and get 1 point for solving the puzzle.

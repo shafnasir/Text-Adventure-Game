@@ -1,0 +1,4 @@
+2 8 1 lucky pen
+3 8 1 t card
+7 8 1 test cheat sheet
+5 3 1 money

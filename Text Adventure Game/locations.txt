@@ -1,0 +1,71 @@
+LOCATION -1
+0
+brief That way is blocked.
+long That way is blocked.
+actions hello
+directions
+END
+
+LOCATION 1
+0
+brief You are on the first floor of the UTM Library. There is an empty study room to the East.
+long You are on the first floor of the UTM Library. There is an empty study room to the East. It smells like coffee and textbooks.
+actions GO[direction] look inventory score back quit
+directions GO,east
+END
+
+LOCATION 2
+1
+brief You are in a study room its deserted, your lucky pen is on the table.
+long You are in a study room its deserted, your lucky pen is on the table. The garbage can is full of coffee cups and red bull cans.
+actions GO[direction] look inventory score back quit get,item
+directions GO,west GO,east GO,south
+END
+
+LOCATION 3
+1
+brief You are in starbucks. Your t card is on the counter.
+long You are in starbucks. Your t card is on the counter. The place is crowded with people.
+actions GO[direction] look inventory score back quit get,item use,item
+directions GO,west GO,south
+END
+
+LOCATION 4
+1
+brief You are outside of the library. There is a Starbucks to the North.
+long You are outside of the library. There is a smell of coffee in the air. There is a Starbucks to the North. Hint: you can find a 5 dollar bill where there are students crying
+actions GO[direction] look inventory score back quit
+directions GO,north GO,west
+END
+
+LOCATION 5
+1
+brief You are in CCT building.
+long You are in CCT building there are a couple math 102 students coming out of a test crying.
+actions GO[direction] look inventory score back quit get,item
+directions GO,north GO,east GO,south
+END
+
+LOCATION 6
+1
+brief You are in Student center, Kaneff center is to the south.
+long You are in Student center, Kaneff center is to the south. There seems to be lots of students in the student center.Hint: there is only one coffee shop open at this time on campus and coffee shops are where you can buy coffee!
+actions GO[direction] look inventory score back quit
+directions GO,north GO,south
+END
+
+LOCATION 7
+1
+brief You are in Kaneff center. Your test cheat sheet is on the floor.
+long You are in Kaneff center. Your test cheat sheet is on the floor. It is very quiet.
+actions GO[direction] look inventory score back quit get,item
+directions GO,north GO,east
+END
+
+LOCATION 8
+2
+brief You are in Deerfield hall.
+long You are in Deerfield hall it smells like pizza.
+actions GO[direction] look inventory score back quit use,item
+directions GO,west
+END
